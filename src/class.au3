@@ -1,5 +1,7 @@
 #include-once
 
+Global $__Class_Classes[]
+
 #cs
 # Generate method call args string
 #
@@ -129,8 +131,6 @@ Func _Class_Parent_Constructor_Call(ByRef $this, $arg1 = Null, $arg2 = Null, $ar
 
     Return SetError(@error, @extended)
 EndFunc
-
-Global $__Class_Classes[]
 
 #cs
 # Register a class
